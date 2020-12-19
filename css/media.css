@@ -1,5 +1,28 @@
-@media only screen and (max-width: 600px) {
-  h1.words {
-    color: black;
+@media only screen and (max-width: 800px) {
+  .footer-grid {
+    flex-direction: column;
+  }
+  .f-column {
+    padding: 20px 10%;
+  }
+  .display-grid {
+    grid-template-rows: auto 200px 1fr;
+  }
+  .links {
+    margin-right: 45%;
+    height: 200px;
+    flex-direction: column;
+
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+  }
+  ul.list {
+    flex-direction: column;
+  }
+  .logo-left {
+    margin-right: 36%;
+    display: flex;
+    justify-content: space-between;
   }
 }
