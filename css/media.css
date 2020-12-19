@@ -12,10 +12,6 @@
     margin-right: 45%;
     height: 200px;
     flex-direction: column;
-
-    display: flex;
-    width: 40%;
-    justify-content: space-evenly;
   }
   ul.list {
     flex-direction: column;
